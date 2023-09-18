@@ -1,0 +1,32 @@
+{
+  "name": "javascript-2-ca",
+  "version": "0.0.1",
+  "description": "A social media platform fetching data from an api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marshflair1988/onlyvansJs2CA.git"
+  },
+  "keywords": [
+    "Css",
+    "Frameworks",
+    "Javascript",
+    "Html",
+    "API"
+  ],
+  "author": "Marsh Woolgar <marshwoolgar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marshflair1988/onlyvansJs2CA/issues"
+  },
+  "homepage": "https://github.com/Marshflair1988/onlyvansJs2CA#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "sass": "^1.67.0"
+  }
+}
