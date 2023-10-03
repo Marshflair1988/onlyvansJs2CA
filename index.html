@@ -1,225 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Only Vans Feed</title>
-
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
+    <title>Boostrap Login | Ludiflex</title>
 </head>
-<body class="">
+<body>
 
-    <!------------------ Start of Navbar ------------------->
+    <!----------------------- Main Container -------------------------->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <img class="p-1" src="images/onlyvanslogo.png" width="70" height="50">
-            <a class="navbar-brand" href="#">Only Vans</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Profile</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-        </div>
-    </nav>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
 
-    <!------------------ End of Navbar ------------------->
+    <!----------------------- Login Container -------------------------->
 
-<main>
+        <div class="row border rounded-5 p-3 bg-white shadow box-area">
 
-    <!------------------ Start of Main Container ------------------->
+    <!--------------------------- Left Box ----------------------------->
 
-    <div class="container-fluid">
-
-        <!--------- Start of first column --------->
-
-        <div class="row">
-            <div class="col-12 col-md-3 d-none d-md-block">
-                <div class="my-3 p-3 bg-white rounded shadow-sm">
-                    <h2 class="border-bottom border-gray pb-3 mb-1">Profile</h2>
-                    <div class="media text-muted pt-3 pb-3">
-                        <img src="images/Avatar.png" width="100" height="100" class="rounded mx-auto d-block mb-2">
-                        <h2 class="text-center text-black">Marsh Woolgar</h2>
-                        <h6 class="pt-5 pb-3 mb-0 lh-sm border-bottom">
-                            <p class="d-block text-black mb-2">Full name: Marsh Woolgar</p>
-                            <p class="d-block text-black mb-2">Username: @marshwoolgar</p>
-                            <p class="d-block text-black mb-2">Edit Profile</p>
-                            <p class="d-block text-black mb-2">Share Profile</p>
-                            <p class="d-block text-black mb-2">Settings</p>
-                            <p class="d-block text-black mb-2">Logout</p>
-                            <p class="d-block text-black mb-2">Delete Account</p>
-                        </h6>
+            <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #9eb8ff;">
+                <div class="featured-image mb-3">
+                    <img src="images/onlyvanslogo.png" class="img-fluid" style="width: 250px;">
                 </div>
+                <p class="text-white fs-2 text text-center style="font-family: 'abril fatface', Courier, monospace; font-weight: 600;">A Social platform for vehicle enthusiasts</p>
+                <small class="text-white text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;">Post/Engage/Influence.</small>
+            </div> 
 
-            </div>
-        </div>
-
-        <!--------- End of first column --------->
-
-        <!--------- Start of Second Column (News Feed) --------->
+    <!-------------------- ------ Right Box ---------------------------->
         
-            <div class="col-12 col-md-7 d-md-block">
-                <div class="my-3 p-3 bg-white rounded shadow-sm">
-                    <h2 class="border-bottom border-gray pb-3 mb-5">News Feed</h2>
-
-                    <div class="media">
-                        <img src="images/Avatar.png" width="30" class="mr-3 rounded">
-                        <div class="media-body">
-                            <p class="mb-1">
-                                <a href="#">This User</a> Commented on
-                                <a href="#">Post Title</a>
-                                <small>2 Minutes Ago</small>
-                            </p>
+        <div class="col-md-6 right-box">
+            <div class="row align-items-center">
+                    <div class="header-text mb-4 text-center">
+                        <h1>On Your <span style="color: #f13232;">Marks</span></h1>
+                        <h2>Get <span style="color: #fea501;">Set</span></h2>
+                        <h3 style="color: #01a532;">Go!</h3>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Email address">
+                    </div>
+                    <div class="input-group mb-1">
+                        <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password">
+                    </div>
+                    <div class="input-group mb-5 d-flex justify-content-between">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="formCheck">
+                            <label for="formCheck" class="form-check-label text-secondary"><small>Remember Me</small></label>
                         </div>
-                
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="media">
-                                    <img src="images/Camero.png" width="100" class="mr-2 rounded">
-                                    <div class="media-body text-muted">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt, aspernatur ab vitae perferendis impedit dolores rem dicta tempora odit. Amet perspiciatis necessitatibus exercitationem perferendis nihil quis animi dolore repellendus!
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="forgot">
+                            <small><a href="#">Forgot Password?</a></small>
                         </div>
                     </div>
-
-                    <hr/>
-
-                    <div class="media">
-                        <img src="images/Avatar.png" width="30" class="mr-3 rounded">
-                        <div class="media-body">
-                            <p class="mb-1">
-                                <a href="#">This User</a> Commented on
-                                <a href="#">Post Title</a>
-                                <small>2 Minutes Ago</small>
-                            </p>
-                        </div>
-                
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="media">
-                                    <img src="images/Camero.png" width="100" class="mr-2 rounded">
-                                    <div class="media-body text-muted">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt, aspernatur ab vitae perferendis impedit dolores rem dicta tempora odit. Amet perspiciatis necessitatibus exercitationem perferendis nihil quis animi dolore repellendus!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-primary w-100 fs-6">Login</button>
                     </div>
-
-                    <hr/>
-
-                    <div class="media">
-                        <img src="images/Avatar.png" width="30" class="mr-3 rounded">
-                        <div class="media-body">
-                            <p class="mb-1">
-                                <a href="#">This User</a> Commented on
-                                <a href="#">Post Title</a>
-                                <small>2 Minutes Ago</small>
-                            </p>
-                        </div>
-                
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="media">
-                                    <img src="images/Camero.png" width="100" class="mr-2 rounded">
-                                    <div class="media-body text-muted">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt, aspernatur ab vitae perferendis impedit dolores rem dicta tempora odit. Amet perspiciatis necessitatibus exercitationem perferendis nihil quis animi dolore repellendus!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-light w-100 fs-6"><img src="images/google.png" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
                     </div>
-                </div>  
-            </div>
-        
-        
-        <!---------End of second column--------->
-
-        <!---------Start of third column (Friends List) --------->
-
-        <div class="col-12 col-md-2 d-none d-md-block">
-            <div class="my-3 p-3 bg-white rounded shadow-sm">
-                <h2 class="border-bottom border-gray pb-3 mb-1">Friends List</h2>
-                <div class="media text-muted pt-3">
-                    <img src="images/Avatar.png" width="32" height="32" class="bd-placeholder-img mr-2 rounded" alt="Avatar">
-                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                    <div class="d-flex justify-content-between align-items-center w-100">
-                        <strong class="text-gray-dark">Full Name</strong>
-                        <a href="#">Follow</a>
-                    </div>
-                    <span class="d-block">@username</span>
+                    <div class="row">
+                        <small>Don't have account? <a href="#">Sign Up</a></small>
                     </div>
                 </div>
-
-                <div class="media text-muted pt-3">
-                    <img src="images/Avatar.png" width="32" height="32" class="bd-placeholder-img mr-2 rounded" alt="Avatar">
-                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                    <div class="d-flex justify-content-between align-items-center w-100">
-                        <strong class="text-gray-dark">Full Name</strong>
-                        <a href="#">Follow</a>
-                    </div>
-                    <span class="d-block">@username</span>
-                    </div>
-                </div>
-
-                <div class="media text-muted pt-3">
-                    <img src="images/Avatar.png" width="32" height="32" class="bd-placeholder-img mr-2 rounded" alt="Avatar">
-                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                    <div class="d-flex justify-content-between align-items-center w-100">
-                        <strong class="text-gray-dark">Full Name</strong>
-                        <a href="#">Follow</a>
-                    </div>
-                    <span class="d-block">@username</span>
-                    </div>
-                </div>
-
-                <div class="media text-muted pt-3">
-                    <img src="images/Avatar.png" width="32" height="32" class="bd-placeholder-img mr-2 rounded" alt="Avatar">
-                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                    <div class="d-flex justify-content-between align-items-center w-100">
-                        <strong class="text-gray-dark">Full Name</strong>
-                        <a href="#">Follow</a>
-                    </div>
-                    <span class="d-block">@username</span>
-                    </div>
-                </div>
-
-                <div class="media text-muted pt-3">
-                    <img src="images/Avatar.png" width="32" height="32" class="bd-placeholder-img mr-2 rounded" alt="Avatar">
-                    <div class="bd-placeholder-img mr-2 rounded" width="32" height="32"></div>
-                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                    <div class="d-flex justify-content-between align-items-center w-100">
-                        <strong class="text-gray-dark">Full Name</strong>
-                        <a href="#">Follow</a>
-                    </div>
-                    <span class="d-block">@username</span>
-                    </div>
-                </div>
-            </div>    
+            </div> 
         </div>
-
-        <!---------End of third column (friends list) --------->    
     </div>
-
-    <!------------------ End of Main Container ------------------->
-
-
-</main>
 </body>
 </html>
